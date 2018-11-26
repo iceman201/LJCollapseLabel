@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LJCollapseLabel_Example' do
+  pod 'LJCollapseLabel', :path => '../'
+
+  target 'LJCollapseLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

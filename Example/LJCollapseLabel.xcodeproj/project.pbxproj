@@ -58,15 +58,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E0EE83B5E1CA5068111AFFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6E0EE83B5E1CA5068111AFFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		789250264C5DDEDA08EE2D49 /* Pods-LJCollapseLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJCollapseLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJCollapseLabel_Tests/Pods-LJCollapseLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA4D3EA31847C3F21679FA62 /* Pods_LJCollapseLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJCollapseLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CFC242A9AC0F2E5543CEAD /* Pods-LJCollapseLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJCollapseLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJCollapseLabel_Tests/Pods-LJCollapseLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F86F5D40EB2EA3A368888438 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F86F5D40EB2EA3A368888438 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F9030303D16E1D572F65E66F /* Pods-LJCollapseLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJCollapseLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJCollapseLabel_Example/Pods-LJCollapseLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F934A329EDB6190BD78B4385 /* LJCollapseLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LJCollapseLabel.podspec; path = ../LJCollapseLabel.podspec; sourceTree = "<group>"; };
+		F934A329EDB6190BD78B4385 /* LJCollapseLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LJCollapseLabel.podspec; path = ../LJCollapseLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

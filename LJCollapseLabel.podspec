@@ -8,26 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LJCollapseLabel'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LJCollapseLabel.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/iceman201/LJCollapseLabel'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'iceman201' => 'liguo@jiao.co.nz' }
-  s.source           = { :git => 'https://github.com/iceman201/LJCollapseLabel.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.version          = '1.0.0'
+  s.summary      = "A simple collapse animate effect UI label."
+  s.description  = "This framework is a tiny feature that I did in my 2016 project. It's a simple UI setup create the collapse animation effect of the UI Label. Now I would like to share it with all developers around the world."
+  s.homepage     = "https://liguo.jiao.co.nz"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.author             = { "Liguo Jiao" => "liguo@jiao.co.nz" }
+  s.social_media_url   = "https://twitter.com/jiaoliguo"
+  s.platform     = :ios, "9.0"
+  s.source       = { :git => "https://github.com/iceman201/LJCollapseLabel.git", :tag => "#{s.version}" }
+  
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LJCollapseLabel/Classes/**/*'

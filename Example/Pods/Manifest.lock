@@ -1,0 +1,16 @@
+PODS:
+  - LJCollapseLabel (0.1.0)
+
+DEPENDENCIES:
+  - LJCollapseLabel (from `../`)
+
+EXTERNAL SOURCES:
+  LJCollapseLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LJCollapseLabel: 1fd9715741a4868e0fba9d0b4b828e6a45032b42
+
+PODFILE CHECKSUM: ebcd657da74cdd7db78aee7a9a75db2109939cd1
+
+COCOAPODS: 1.5.3

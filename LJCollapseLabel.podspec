@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LJCollapseLabel'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary      = "A simple collapse animate effect UI label."
   s.description  = "This framework is a tiny feature that I did in my 2016 project. It's a simple UI setup create the collapse animation effect of the UI Label. Now I would like to share it with all developers around the world."
   s.homepage     = "https://liguo.jiao.co.nz"

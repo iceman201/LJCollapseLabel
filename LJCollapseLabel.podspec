@@ -26,8 +26,7 @@ Pod::Spec.new do |s|
   #   'LJCollapseLabel' => ['LJCollapseLabel/Assets/*.png']
   # }
 
-  s.public_header_files = 'LJCollapseLabel/Classes/PublicHeaders/*'
-  # s.private_header_files = 'LJCollapseLabel/Classes/**/GradientBackgroundView.h'
+  s.private_header_files = 'LJCollapseLabel/Classes/**/GradientBackgroundView.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

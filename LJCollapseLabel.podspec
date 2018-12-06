@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LJCollapseLabel'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary      = "A simple collapse animate effect UI label."
   s.description  = "This framework is a tiny feature that I did in my 2016 project. It's a simple UI setup create the collapse animation effect of the UI Label. Now I would like to share it with all developers around the world."
   s.homepage     = "https://liguo.jiao.co.nz"
@@ -17,16 +17,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/jiaoliguo"
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/iceman201/LJCollapseLabel.git", :tag => "#{s.version}" }
-  
   s.ios.deployment_target = '9.0'
-
   s.source_files = 'LJCollapseLabel/Classes/**/*'
-
-  # s.resource_bundles = {
-  #   'LJCollapseLabel' => ['LJCollapseLabel/Assets/*.png']
-  # }
-
   s.private_header_files = 'LJCollapseLabel/Classes/**/GradientBackgroundView.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

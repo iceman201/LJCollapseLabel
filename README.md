@@ -2,7 +2,7 @@
 
 [![CI Status](https://img.shields.io/travis/iceman201/LJCollapseLabel.svg?style=flat)](https://travis-ci.org/iceman201/LJCollapseLabel)
 [![Version](https://img.shields.io/cocoapods/v/LJCollapseLabel.svg?style=flat)](https://cocoapods.org/pods/LJCollapseLabel)
-[![License](https://img.shields.io/cocoapods/l/LJCollapseLabel.svg?style=flat)](https://cocoapods.org/pods/LJCollapseLabel)
+[![License](https://img.shields.io/cocoapods/l/LJCollapseLabel.svg?style=flat)](https://github.com/iceman201/LJCollapseLabel/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/LJCollapseLabel.svg?style=flat)](https://cocoapods.org/pods/LJCollapseLabel)
 
 ## Example

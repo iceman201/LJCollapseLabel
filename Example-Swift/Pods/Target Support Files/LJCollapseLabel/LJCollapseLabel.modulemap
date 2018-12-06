@@ -1,0 +1,6 @@
+framework module LJCollapseLabel {
+  umbrella header "LJCollapseLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

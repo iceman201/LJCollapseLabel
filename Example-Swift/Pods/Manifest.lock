@@ -1,0 +1,16 @@
+PODS:
+  - LJCollapseLabel (1.0.3)
+
+DEPENDENCIES:
+  - LJCollapseLabel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LJCollapseLabel
+
+SPEC CHECKSUMS:
+  LJCollapseLabel: bdd6f93b96e74f9dfd551e4066da3fe52a32d440
+
+PODFILE CHECKSUM: 6e5eb4d4c06a134e0e35db35dd7fb3e853747a37
+
+COCOAPODS: 1.5.3

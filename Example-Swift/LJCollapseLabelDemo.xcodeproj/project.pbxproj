@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C86854A7168DE952452494DA /* Pods_LJCollapseLabelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B02A03677C6D44A7CB0988D /* Pods_LJCollapseLabelDemo.framework */; };
+		EAC2B77921B9E085001165CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2B77821B9E085001165CA /* AppDelegate.swift */; };
+		EAC2B77B21B9E085001165CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2B77A21B9E085001165CA /* ViewController.swift */; };
+		EAC2B77E21B9E085001165CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC2B77C21B9E085001165CA /* Main.storyboard */; };
+		EAC2B78021B9E086001165CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC2B77F21B9E086001165CA /* Assets.xcassets */; };
+		EAC2B78321B9E086001165CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC2B78121B9E086001165CA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B02A03677C6D44A7CB0988D /* Pods_LJCollapseLabelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJCollapseLabelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFDDC60ED57ED091A635A08 /* Pods-LJCollapseLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJCollapseLabelDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJCollapseLabelDemo/Pods-LJCollapseLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8E50DD55DB514DEEF9349A02 /* Pods-LJCollapseLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJCollapseLabelDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJCollapseLabelDemo/Pods-LJCollapseLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EAC2B77521B9E085001165CA /* LJCollapseLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJCollapseLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC2B77821B9E085001165CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAC2B77A21B9E085001165CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAC2B77D21B9E085001165CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAC2B77F21B9E086001165CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAC2B78221B9E086001165CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAC2B78421B9E086001165CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAC2B77221B9E085001165CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86854A7168DE952452494DA /* Pods_LJCollapseLabelDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373FF837BD8FF2617EF549CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B02A03677C6D44A7CB0988D /* Pods_LJCollapseLabelDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAC2B76C21B9E085001165CA = {
+			isa = PBXGroup;
+			children = (
+				EAC2B77721B9E085001165CA /* LJCollapseLabelDemo */,
+				EAC2B77621B9E085001165CA /* Products */,
+				EF2D4C0F8E228AA0FCB7FC14 /* Pods */,
+				373FF837BD8FF2617EF549CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAC2B77621B9E085001165CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2B77521B9E085001165CA /* LJCollapseLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAC2B77721B9E085001165CA /* LJCollapseLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2B77821B9E085001165CA /* AppDelegate.swift */,
+				EAC2B77A21B9E085001165CA /* ViewController.swift */,
+				EAC2B77C21B9E085001165CA /* Main.storyboard */,
+				EAC2B77F21B9E086001165CA /* Assets.xcassets */,
+				EAC2B78121B9E086001165CA /* LaunchScreen.storyboard */,
+				EAC2B78421B9E086001165CA /* Info.plist */,
+			);
+			path = LJCollapseLabelDemo;
+			sourceTree = "<group>";
+		};
+		EF2D4C0F8E228AA0FCB7FC14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E50DD55DB514DEEF9349A02 /* Pods-LJCollapseLabelDemo.debug.xcconfig */,
+				7AFDDC60ED57ED091A635A08 /* Pods-LJCollapseLabelDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAC2B77421B9E085001165CA /* LJCollapseLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC2B78721B9E086001165CA /* Build configuration list for PBXNativeTarget "LJCollapseLabelDemo" */;
+			buildPhases = (
+				A1CA94935FE03B6047D9EA2A /* [CP] Check Pods Manifest.lock */,
+				EAC2B77121B9E085001165CA /* Sources */,
+				EAC2B77221B9E085001165CA /* Frameworks */,
+				EAC2B77321B9E085001165CA /* Resources */,
+				F8430261D8BFE3339CB65088 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJCollapseLabelDemo;
+			productName = LJCollapseLabelDemo;
+			productReference = EAC2B77521B9E085001165CA /* LJCollapseLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAC2B76D21B9E085001165CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Liguo Jiao";
+				TargetAttributes = {
+					EAC2B77421B9E085001165CA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EAC2B77021B9E085001165CA /* Build configuration list for PBXProject "LJCollapseLabelDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAC2B76C21B9E085001165CA;
+			productRefGroup = EAC2B77621B9E085001165CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAC2B77421B9E085001165CA /* LJCollapseLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAC2B77321B9E085001165CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC2B78321B9E086001165CA /* LaunchScreen.storyboard in Resources */,
+				EAC2B78021B9E086001165CA /* Assets.xcassets in Resources */,
+				EAC2B77E21B9E085001165CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1CA94935FE03B6047D9EA2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJCollapseLabelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8430261D8BFE3339CB65088 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LJCollapseLabelDemo/Pods-LJCollapseLabelDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LJCollapseLabel/LJCollapseLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LJCollapseLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJCollapseLabelDemo/Pods-LJCollapseLabelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC2B77121B9E085001165CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC2B77B21B9E085001165CA /* ViewController.swift in Sources */,
+				EAC2B77921B9E085001165CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAC2B77C21B9E085001165CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC2B77D21B9E085001165CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAC2B78121B9E086001165CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC2B78221B9E086001165CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAC2B78521B9E086001165CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAC2B78621B9E086001165CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAC2B78821B9E086001165CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E50DD55DB514DEEF9349A02 /* Pods-LJCollapseLabelDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJCollapseLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguojiao.LJCollapseLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAC2B78921B9E086001165CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFDDC60ED57ED091A635A08 /* Pods-LJCollapseLabelDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJCollapseLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguojiao.LJCollapseLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAC2B77021B9E085001165CA /* Build configuration list for PBXProject "LJCollapseLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC2B78521B9E086001165CA /* Debug */,
+				EAC2B78621B9E086001165CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC2B78721B9E086001165CA /* Build configuration list for PBXNativeTarget "LJCollapseLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC2B78821B9E086001165CA /* Debug */,
+				EAC2B78921B9E086001165CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAC2B76D21B9E085001165CA /* Project object */;
+}

@@ -10,9 +10,8 @@
 #endif
 #endif
 
-#import "CollapseLabel.h"
-#import "GradientBackgroundView.h"
 #import "LJCollapseLabel.h"
+#import "CollapseLabel.h"
 
 FOUNDATION_EXPORT double LJCollapseLabelVersionNumber;
 FOUNDATION_EXPORT const unsigned char LJCollapseLabelVersionString[];

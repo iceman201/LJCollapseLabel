@@ -1,0 +1,22 @@
+{
+  "name": "LJCollapseLabel",
+  "version": "0.1.0",
+  "summary": "A short description of LJCollapseLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/iceman201/LJCollapseLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "iceman201": "liguo@jiao.co.nz"
+  },
+  "source": {
+    "git": "https://github.com/iceman201/LJCollapseLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LJCollapseLabel/Classes/**/*"
+}

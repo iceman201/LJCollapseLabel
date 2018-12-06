@@ -1,0 +1,6 @@
+framework module Pods_LJCollapseLabel_Tests {
+  umbrella header "Pods-LJCollapseLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

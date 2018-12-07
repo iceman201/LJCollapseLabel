@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/LJCollapseLabel.svg?style=flat)](https://cocoapods.org/pods/LJCollapseLabel)
 [![License](https://img.shields.io/cocoapods/l/LJCollapseLabel.svg?style=flat)](https://github.com/iceman201/LJCollapseLabel/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/LJCollapseLabel.svg?style=flat)](https://cocoapods.org/pods/LJCollapseLabel)
+[![Issues](https://img.shields.io/github/issues/iceman201/TaniwhaTextField.svg?style=flat)](https://github.com/iceman201/TaniwhaTextField/issues?state=open) 
 
 ## Example
 

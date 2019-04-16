@@ -2,7 +2,6 @@
 
 [![CI Status](https://img.shields.io/travis/iceman201/LJCollapseLabel.svg?style=flat)](https://travis-ci.org/iceman201/LJCollapseLabel)
 ![GitHub top language](https://img.shields.io/github/languages/top/iceman201/LJCollapseLabel.svg)
-![GitHub language count](https://img.shields.io/github/languages/count/iceman201/LJCollapseLabel.svg)
 [![Issues](https://img.shields.io/github/issues/iceman201/TaniwhaTextField.svg?style=flat)](https://github.com/iceman201/TaniwhaTextField/issues?state=open) 
 [![Version](https://img.shields.io/cocoapods/v/LJCollapseLabel.svg?style=flat)](https://cocoapods.org/pods/LJCollapseLabel)
 [![License](https://img.shields.io/cocoapods/l/LJCollapseLabel.svg?style=flat)](https://github.com/iceman201/LJCollapseLabel/blob/master/LICENSE)

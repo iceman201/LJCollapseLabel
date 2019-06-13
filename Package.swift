@@ -24,8 +24,7 @@ let package = Package(
         ),
         .testTarget(
             name: "LJCollapseLabelTests",
-            dependencies: ["LJCollapseLabel"],
-            path: "Tests"
+            dependencies: ["LJCollapseLabel"]
         ),
     ]
 )

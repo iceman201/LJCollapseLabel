@@ -132,11 +132,13 @@
 - (void)setMinimumHeight:(CGFloat)minimumHeight
 {
     CGFloat actualHeight = self.font.pointSize*(self.numberOfLines + 1);
-    if (actualHeight < minimumHeight) {
+    if (actualHeight < minimumHeight)
+    {
         self.heightConstrain = [self.heightAnchor constraintEqualToConstant:minimumHeight];
-    } else {
+    }
+    else
+    {
         self.heightConstrain = [self.heightAnchor constraintEqualToConstant:actualHeight];
-
     }
     [self.heightConstrain setActive:YES];
     [self layoutIfNeeded];

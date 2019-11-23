@@ -43,8 +43,8 @@
 
 - (void)setup
 {
-    _isCollapsed = NO;
-    _shouldShowCollapse = NO;
+    self.isCollapsed = NO;
+    self.shouldShowCollapse = NO;
     [self setTranslatesAutoresizingMaskIntoConstraints:NO];
     
     UILabel *extra = [[UILabel alloc] init];
@@ -67,9 +67,9 @@
     gradient.startPoint = CGPointMake(0.0, 1.0);
     gradient.endPoint = CGPointMake(0.35, 1.0);
     gradient.hidden = YES;
-    _gradientBackground = gradient;
-    _expandLabel = extra;
-    _collapseButton = collapse;
+    self.gradientBackground = gradient;
+    self.expandLabel = extra;
+    self.collapseButton = collapse;
     
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showExtraContent)];
     tapGestureRecognizer.numberOfTapsRequired = 1;
@@ -96,13 +96,13 @@
     [[self.gradientBackground.widthAnchor constraintGreaterThanOrEqualToConstant:12] setActive:YES];
     [[self.gradientBackground.heightAnchor constraintGreaterThanOrEqualToConstant:30] setActive:YES];
 
-    _expandLabel.userInteractionEnabled = YES;
+    self.expandLabel.userInteractionEnabled = YES;
     self.userInteractionEnabled = YES;
 }
 
 - (void)showExtraContent
 {
-    _isCollapsed = NO;
+    self.isCollapsed = NO;
     [self.heightConstrain setActive:NO];
     
     [self setNeedsLayout];
@@ -117,7 +117,7 @@
 
 - (void)hideExtraContent
 {
-    _isCollapsed = YES;
+    self.isCollapsed = YES;
     [self.heightConstrain setActive:YES];
     [self setNeedsLayout];
     
@@ -157,8 +157,8 @@
     [super setNumberOfLines:numberOfLines];
     if (numberOfLines != 0)
     {
-        _contentLines = numberOfLines;
-        _isCollapsed = YES;
+        self.contentLines = numberOfLines;
+        self.isCollapsed = YES;
     }
 }
 
@@ -189,7 +189,7 @@
 {
     [super layoutSubviews];
     
-    if (_isCollapsed)
+    if (self.isCollapsed)
     {
         // NumberOfLine default to 0 is using for extend out all the content.
         self.numberOfLines = 0;
@@ -199,16 +199,16 @@
         long charSize = lroundf(1.0); //self.lineHeight
         lineCount = rHeight/charSize;
         
-        if (lineCount <= _contentLines)
+        if (lineCount <= self.contentLines)
         {
             self.numberOfLines = 0;
             [self setComponentHidden:YES];
-            _collapseButton.hidden = YES;
+            self.collapseButton.hidden = YES;
             [self setShouldShowCollapse:NO];
         }
         else
         {
-            self.numberOfLines = _contentLines;
+            self.numberOfLines = self.contentLines;
             [self setComponentHidden:NO];
             [self setShouldShowCollapse:YES];
         }
@@ -222,9 +222,9 @@
 
 - (void)setComponentHidden:(BOOL)display
 {
-    _expandLabel.hidden = display;
-    _gradientBackground.hidden = display;
-    _collapseButton.hidden = _shouldShowCollapse ? !display : YES;
+    self.expandLabel.hidden = display;
+    self.gradientBackground.hidden = display;
+    self.collapseButton.hidden = self.shouldShowCollapse ? !display : YES;
 }
 
 - (void)setShouldShowCollapse:(BOOL)shouldShowCollapse

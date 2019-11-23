@@ -2,11 +2,11 @@
 //  LJViewController.h
 //  LJCollapseLabel
 //
-//  Created by iceman201 on 12/07/2018.
-//  Copyright (c) 2018 iceman201. All rights reserved.
+//  Created by Liguo Jiao on 12/07/2018.
+//  Copyright (c) 2018 Liguo Jiao. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface LJViewController : UIViewController
 

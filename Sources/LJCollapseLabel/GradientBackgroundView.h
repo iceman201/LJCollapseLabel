@@ -19,10 +19,8 @@ enum GradientDirection
 @interface GradientBackgroundView : UIView
 
 @property (weak, nonatomic, readonly) CAGradientLayer *gradientLayer;
-
 @property (nonatomic) IBInspectable CGPoint startPoint;
 @property (nonatomic) IBInspectable CGPoint endPoint;
-
 @property (strong, nonatomic) UIColor *startColor;
 @property (strong, nonatomic) UIColor *endColor;
 
